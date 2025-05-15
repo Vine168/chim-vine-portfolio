@@ -49,10 +49,29 @@
                 ></div>
               </div>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:chimvine777@gmail.com"
                 class="text-gray-700 hover:text-emerald-500 transition-colors duration-300"
               >
-                your.email@example.com
+                chimvine777@gmail.com
+              </a>
+            </div>
+            <div
+              class="group flex items-center gap-4 p-4 rounded-lg hover:bg-gray-50 transition-all duration-300"
+            >
+              <div class="relative">
+                <i
+                  class="fab fa-telegram text-2xl text-emerald-500 group-hover:scale-110 transition-transform duration-300"
+                ></i>
+                <div
+                  class="absolute inset-0 bg-emerald-500/20 blur-lg scale-0 group-hover:scale-150 transition-transform duration-500"
+                ></div>
+              </div>
+              <a
+                href="https://t.me/chimvine"
+                target="_blank"
+                class="text-gray-700 hover:text-emerald-500 transition-colors duration-300"
+              >
+                Telegram Account
               </a>
             </div>
             <div
@@ -67,7 +86,7 @@
                 ></div>
               </div>
               <a
-                href="#"
+                href="http://linkedin.com/in/vine-chim-b40362293"
                 target="_blank"
                 class="text-gray-700 hover:text-emerald-500 transition-colors duration-300"
               >
@@ -86,11 +105,31 @@
                 ></div>
               </div>
               <a
-                href="#"
+                href="https://github.com/Vine168"
                 target="_blank"
                 class="text-gray-700 hover:text-emerald-500 transition-colors duration-300"
               >
                 GitHub Profile
+              </a>
+            </div>
+
+            <div
+              class="group flex items-center gap-4 p-4 rounded-lg hover:bg-gray-50 transition-all duration-300"
+            >
+              <div class="relative">
+                <i
+                  class="fab fa-phone-volume text-2xl text-emerald-500 group-hover:scale-110 transition-transform duration-300"
+                ></i>
+                <div
+                  class="absolute inset-0 bg-emerald-500/20 blur-lg scale-0 group-hover:scale-150 transition-transform duration-500"
+                ></div>
+              </div>
+              <a
+                href="#"
+                target="_blank"
+                class="text-gray-700 hover:text-emerald-500 transition-colors duration-300"
+              >
+                +855 88 483 4024
               </a>
             </div>
           </div>

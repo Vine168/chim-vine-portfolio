@@ -32,7 +32,7 @@
           Welcome to My Portfolio
         </h1>
         <p class="text-xl md:text-2xl text-white/90 mb-8 font-light">
-          Web Developer
+          Full-Stack Developer
         </p>
         <p class="text-lg text-white/80 mb-12 max-w-2xl leading-relaxed">
           Passionate about creating beautiful and functional web applications,

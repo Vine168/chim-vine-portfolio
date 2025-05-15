@@ -48,7 +48,7 @@
                 </div>
 
                 <h3 class="text-2xl font-bold text-gray-800 mb-2">
-                  Web Developer - Internship
+                  Full-Stack Developer - Internship
                 </h3>
                 <h4 class="text-lg font-semibold text-emerald-600 mb-4">
                   Phillip Bank Cambodia

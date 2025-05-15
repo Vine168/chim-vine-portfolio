@@ -1,6 +1,7 @@
 <script setup>
 import Header from "./components/Header.vue";
 import HomeSection from "./components/HomeSection.vue";
+import AboutSection from "./components/AboutSection.vue";
 import EducationSection from "./components/EducationSection.vue";
 import ExperienceSection from "./components/ExperienceSection.vue";
 import TechnologySection from "./components/TechnologySection.vue";
@@ -18,6 +19,12 @@ import Footer from "./components/Footer.vue";
       <div class="relative">
         <div
           class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(147,197,253,0.1),transparent_50%)]"
+        ></div>
+        <AboutSection />
+      </div>
+      <div class="relative">
+        <div
+          class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(167,243,208,0.1),transparent_50%)]"
         ></div>
         <EducationSection />
       </div>

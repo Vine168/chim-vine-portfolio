@@ -28,6 +28,7 @@ import { ref, onMounted, onUnmounted } from "vue";
 
 const sections = [
   { id: "home", name: "Home" },
+  { id: "about", name: "About" },
   { id: "education", name: "Education" },
   { id: "experience", name: "Experience" },
   { id: "technology", name: "Technology" },
