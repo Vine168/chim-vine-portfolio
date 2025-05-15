@@ -257,26 +257,6 @@
               </div>
             </div>
 
-            <div class="group">
-              <div
-                class="relative p-6 rounded-xl bg-gray-50 aspect-square flex flex-col items-center justify-center gap-4 overflow-hidden cursor-pointer before:absolute before:inset-0 before:bg-gradient-to-br before:from-emerald-500 before:to-blue-500 before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-10 after:absolute after:inset-0 after:border-2 after:border-emerald-500/0 after:rounded-xl hover:after:border-emerald-500/50 after:transition-colors after:duration-500"
-              >
-                <div
-                  class="relative z-10 transform-gpu transition-all duration-500 group-hover:scale-110 group-hover:translate-y-[-4px]"
-                >
-                  <i
-                    class="fab fa-node-js text-5xl text-emerald-500 transition-all duration-500 group-hover:text-emerald-600"
-                  ></i>
-                </div>
-                <span
-                  class="relative z-10 text-gray-600 font-medium transition-all duration-500 group-hover:text-emerald-600"
-                  >Node.js</span
-                >
-                <div
-                  class="absolute inset-0 bg-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl"
-                ></div>
-              </div>
-            </div>
 
             <div class="group">
               <div
