@@ -1,7 +1,7 @@
 <template>
   <section
     id="home"
-    class="relative min-h-screen flex items-center justify-center overflow-hidden"
+    class="relative min-h-[90vh] md:min-h-screen flex items-center justify-center overflow-hidden py-20 md:py-0"
   >
     <!-- Background Elements -->
     <div
@@ -10,42 +10,46 @@
   </div>
     <div class="absolute inset-0 opacity-10">
       <div
-        class="absolute top-0 -left-4 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-blob"
+        class="absolute top-0 -left-4 w-48 md:w-72 h-48 md:h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-blob"
       ></div>
       <div
-        class="absolute top-0 -right-4 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"
+        class="absolute top-0 -right-4 w-48 md:w-72 h-48 md:h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000"
       ></div>
       <div
-        class="absolute -bottom-8 left-20 w-72 h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"
+        class="absolute -bottom-8 left-20 w-48 md:w-72 h-48 md:h-72 bg-white rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000"
       ></div>
     </div>
 
     <!-- Content -->
     <div
-      class="relative z-10 max-w-7xl mx-auto px-8 py-12 flex flex-col md:flex-row items-center justify-between gap-12"
+      class="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12 flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:gap-12"
     >
       <!-- Left Side - Text Content -->
-      <div class="md:w-1/2 text-left">
+      <div class="w-full md:w-1/2 text-center md:text-left">
         <h1
-          class="text-5xl md:text-7xl font-bold text-white mb-6 tracking-tight"
+          class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 md:mb-6 tracking-tight leading-tight"
+          data-aos="fade-right"
         >
           Welcome to My Portfolio
         </h1>
-        <p class="text-xl md:text-2xl text-white/90 mb-8 font-light">
+        <p
+          class="text-lg sm:text-xl md:text-2xl text-white/90 mb-4 md:mb-8 font-light"
+          data-aos="fade-right"
+          data-aos-delay="100"
+        >
           Full-Stack Developer
         </p>
-        <p class="text-lg text-white/80 mb-12 max-w-2xl leading-relaxed">
-          Passionate about creating beautiful and functional web applications,
-          turning complex problems into elegant solutions.
-        </p>
-        <a
+        
+        <!-- <a
           href="#contact"
-          class="inline-flex items-center px-8 py-4 text-lg font-medium text-emerald-600 bg-white rounded-full hover:bg-emerald-50 hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-xl active:scale-100"
+          class="inline-flex items-center px-3 md:px-4 py-1 md:py-1.5 text-xs md:text-sm font-medium text-emerald-600 bg-white rounded-full hover:bg-emerald-50 hover:scale-105 transform transition-all duration-300 shadow-md hover:shadow-lg active:scale-100"
+          data-aos="fade-up"
+          data-aos-delay="300"
         >
           Get in Touch
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5 ml-2"
+            class="h-3 w-3 md:h-3.5 md:w-3.5 ml-1"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
@@ -55,11 +59,14 @@
               clip-rule="evenodd"
             />
           </svg>
-        </a>
+        </a> -->
       </div>
 
       <!-- Right Side - Profile Image -->
-      <div class="md:w-1/2 flex justify-center">
+      <div
+        class="w-full md:w-1/2 flex justify-center mb-8 md:mb-0"
+        data-aos="zoom-in"
+      >
         <div class="relative">
           <!-- Decorative Ring -->
           <div
@@ -68,9 +75,8 @@
 
           <!-- Image Container -->
           <div
-            class="relative w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white/50 overflow-hidden shadow-2xl"
+            class="relative w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full border-4 border-white/50 overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500"
           >
-            <!-- Replace the src with your image path -->
             <img
               src="/profile.png"
               alt="Profile"
@@ -79,9 +85,13 @@
           </div>
 
           <!-- Decorative Dots -->
-          <div class="absolute -right-8 top-1/2 transform -translate-y-1/2">
-            <div class="w-3 h-3 bg-white rounded-full mb-2"></div>
-            <div class="w-2 h-2 bg-white/80 rounded-full mb-2"></div>
+          <div
+            class="absolute -right-4 md:-right-8 top-1/2 transform -translate-y-1/2"
+          >
+            <div class="w-2 md:w-3 h-2 md:h-3 bg-white rounded-full mb-2"></div>
+            <div
+              class="w-1.5 md:w-2 h-1.5 md:h-2 bg-white/80 rounded-full mb-2"
+            ></div>
             <div class="w-1 h-1 bg-white/60 rounded-full"></div>
           </div>
         </div>
@@ -92,6 +102,7 @@
     <div class="absolute bottom-0 left-0 right-0">
       <svg
         class="w-full h-auto"
+        preserveAspectRatio="none"
         viewBox="0 0 1440 120"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
@@ -106,6 +117,20 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { onMounted } from "vue";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+onMounted(() => {
+  AOS.init({
+    duration: 1000,
+    easing: "ease-in-out",
+    once: true,
+  });
+});
+</script>
 
 <style scoped>
 @keyframes blob {
@@ -133,5 +158,12 @@
 
 .animation-delay-4000 {
   animation-delay: 4s;
+}
+
+/* Ensure the wave SVG scales properly */
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 </style>

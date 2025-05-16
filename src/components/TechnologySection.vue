@@ -2,10 +2,16 @@
   <section
     id="technology"
     class="py-32 px-8 bg-gradient-to-br from-gray-50 to-white"
+    data-aos="fade-up"
+    data-aos-duration="1200"
   >
     <div class="max-w-7xl mx-auto">
       <!-- Section Title -->
-      <div class="text-center mb-16">
+      <div
+        class="text-center mb-16"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
         <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
           Technologies
         </h2>
@@ -19,6 +25,8 @@
         <!-- Frontend -->
         <div
           class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 hover:translate-y-[-4px]"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
         >
           <h3
             class="text-2xl text-emerald-500 mb-8 text-center font-bold relative"
@@ -201,10 +209,9 @@
             </div>
           </div>
         </div>
-
         <!-- Backend -->
         <div
-          class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 hover:translate-y-[-4px]"
+          class="bg-white rounded-2xl p-4 md:p-8 shadow-lg hover:shadow-2xl transition-all duration-500 hover:translate-y-[-4px]"
         >
           <h3
             class="text-2xl text-emerald-500 mb-8 text-center font-bold relative"
@@ -214,7 +221,9 @@
               class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-12 h-1 bg-gradient-to-r from-emerald-500 to-blue-500"
             ></div>
           </h3>
-          <div class="grid grid-cols-4 gap-8">
+          <div
+            class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8"
+          >
             <div class="group">
               <div
                 class="relative p-6 rounded-xl bg-gray-50 aspect-square flex flex-col items-center justify-center gap-4 overflow-hidden cursor-pointer before:absolute before:inset-0 before:bg-gradient-to-br before:from-emerald-500 before:to-blue-500 before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-10 after:absolute after:inset-0 after:border-2 after:border-emerald-500/0 after:rounded-xl hover:after:border-emerald-500/50 after:transition-colors after:duration-500"
@@ -256,7 +265,6 @@
                 ></div>
               </div>
             </div>
-
 
             <div class="group">
               <div

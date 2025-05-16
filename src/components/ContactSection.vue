@@ -2,18 +2,29 @@
   <section
     id="contact"
     class="py-24 px-8 bg-gradient-to-br from-white to-gray-50 relative overflow-hidden"
+    data-aos="fade-up"
+    data-aos-duration="1200"
   >
     <!-- Decorative gradient orbs -->
     <div
       class="absolute -top-40 -left-40 w-80 h-80 bg-emerald-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob"
+      data-aos="zoom-in"
+      data-aos-duration="1500"
     ></div>
     <div
       class="absolute -bottom-40 -right-40 w-80 h-80 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-30 animate-blob animation-delay-2000"
+      data-aos="zoom-in"
+      data-aos-duration="1500"
+      data-aos-delay="200"
     ></div>
 
     <div class="max-w-7xl mx-auto relative">
       <!-- Section Title -->
-      <div class="text-center mb-16">
+      <div
+        class="text-center mb-16"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
         <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
           Contact Me
         </h2>

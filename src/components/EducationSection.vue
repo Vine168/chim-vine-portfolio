@@ -1,7 +1,16 @@
 <template>
-  <section id="education" class="relative py-32 px-8">
+  <section
+    id="education"
+    class="relative py-32 px-8"
+    data-aos="fade-up"
+    data-aos-duration="1200"
+  >
     <div class="max-w-7xl mx-auto">
-      <div class="text-center mb-16">
+      <div
+        class="text-center mb-16"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+      >
         <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
           Education
         </h2>
@@ -15,6 +24,9 @@
           v-for="(education, index) in educationList"
           :key="index"
           class="group"
+          :data-aos="index % 2 === 0 ? 'fade-right' : 'fade-left'"
+          :data-aos-delay="index * 100"
+          data-aos-duration="1000"
         >
           <div
             class="relative bg-white p-8 rounded-2xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.07)] hover:shadow-[0_30px_60px_rgba(8,_112,_184,_0.1)] transition-all duration-300 hover:-translate-y-2 cursor-pointer"
@@ -243,21 +255,26 @@ const educationList = [
     description:
       "Studying computer science with focus on Software Engineering, algorithms, and modern web technologies.",
     fullDescription:
-      "Pursuing a comprehensive program in Computer Science, focusing on both theoretical foundations and practical applications. Actively participating in research projects and hackathons, developing expertise in software development and problem-solving.",
+      "Pursuing a comprehensive program in Computer Science, focusing on both theoretical foundations and practical applications. Actively, developing expertise in software development and problem-solving.",
     image: "/education/cadt.png",
     courses: [
-      "Data Structures & Algorithms",
-      "Software Engineering",
-      "Web Development",
-      "Database Systems",
+      "IT Essentials",
+      "Personal Development & Critical thinking",
+      "Networks (CCNA)",
+      "Advanced Algorithms",
       "Artificial Intelligence",
       "Cloud Computing",
+      "Basic Robotic",
+      "Web Application ",
+      "Software Engineering",
+      "Advanced Mobile Development",
+      "Database Administration"
     ],
     achievements: [
       "Dean's List for Academic Excellence",
-      "First Place in University Hackathon",
-      "Research Assistant in AI Lab",
-      "President of Computing Society",
+      "Passed internship at Phillip Bank",
+      "Good GPA for year 1 ,2 and 3",
+      "Learn more about the field of Computer Science",
     ],
   },
   {
@@ -267,22 +284,28 @@ const educationList = [
     description:
       "Completed secondary education and upper secondary education with a focus on science and technology.",
     fullDescription:
-      "Graduated with honors from the science stream, specializing in mathematics and computer science. Participated in various STEM activities and led the school's programming club.",
+      "",
     image: "/education/sonny_wu_samrong_thom.png",
     courses: [
-      "Advanced Mathematics",
+      "Mathematics",
       "Khmer Literature",
       "Biology",
       "Physics",
       "Chemistry",
       "English Literature",
       "History",
+      "Civic Instruction",
+      "Geography",
+      "Earth Science",
+      "Home Economics",
+      "Physical Education",
     ],
     achievements: [
       "School Prefect",
       "Grade A in National Examination",
-      "Bronze Medal in MOSC",
-    //   "Best Student in Computer Science",
+      "Bronze Medal in MOSC in grade 11",
+      "Outstanding Student Award rank 4 (Physic)",
+      //   "Best Student in Computer Science",
     ],
   },
   {
@@ -300,14 +323,15 @@ const educationList = [
       "English",
       "Khmer Language",
       "Social Studies",
-      "Arts & Crafts",
+      "Arts",
       "Physical Education",
+      "Sport",
     ],
     achievements: [
-      "First Place in Science Fair",
-      "Perfect Attendance Award",
-      "Young Innovator Award",
-    //   "Student Council Member",
+      "First Place in start learning",
+      "Good grade in all subjects",
+      "Outstanding student in the class",
+      //   "Student Council Member",
     ],
   },
   {
@@ -317,21 +341,23 @@ const educationList = [
     description:
       "Actively participating in competitions and earning professional certifications.",
     fullDescription:
-      "Continuously improving skills through competitions, hackathons, and professional certifications. Focused on staying current with industry trends and best practices.",
+      "Continuously improving skills through competitions, and professional certifications. Focused on staying current with industry trends and best practices.",
     image: "/education/competition.png",
     courses: [
-      "AWS Cloud Practitioner",
-      "Google IT Support",
-      "Microsoft Azure Fundamentals",
-      "CompTIA A+",
-      "Web Development Bootcamp",
-      "AI/ML Specialization",
+      "Echo Hero Clean-Up (STEM)",
+      // "Google IT Support",
+      // "Microsoft Azure Fundamentals",
+      // "CompTIA A+",
+      // "Web Development Bootcamp",
+      // "AI/ML Specialization",
     ],
     achievements: [
-      "National Coding Competition Finalist",
-      "Google Kickstart Round E Participant",
-      "AWS Certified Developer",
-      "3x Hackathon Winner",
+      "Improve public speaking skills",
+      "Shared knowledge with peers",
+      "Learn more about the field of Computer Science",
+      // "Google Kickstart Round E Participant",
+      // "AWS Certified Developer",
+      // "",
     ],
   },
 ];
