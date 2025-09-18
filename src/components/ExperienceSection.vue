@@ -110,7 +110,7 @@
                     <h5 class="text-sm font-semibold text-gray-600 mb-3">
                       Project Resources
                     </h5>
-                    <div class="flex flex-wrap gap-3">
+                    <!-- <div class="flex flex-wrap gap-3">
                       <a
                         v-for="(
                           resource, resourceIndex
@@ -123,7 +123,7 @@
                         <i :class="resource.icon" class="text-xl mr-2"></i>
                         <span class="text-sm">{{ resource.label }}</span>
                       </a>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
               </div>
@@ -143,8 +143,8 @@ const experiences = [
     company: "Phillip Bank Cambodia",
     title: "Full-Stack Developer - Internship",
     tasks: [
-      "Project : Build Web Application for Phillip Bank",
-      "Teachnologies: NestJS, NuxtJS, Tailwind CSS, PostgreSQL",
+      "Project : Build Web Application for Phillip Bank (Phillip Trustee)",
+      "Teachnologies: NestJS, NuxtJS, PostgreSQL",
       "Implemented CI/CD pipelines improving deployment efficiency",
     ],
     resources: [
@@ -195,7 +195,7 @@ const experiences = [
   },
   {
     date: "1st December 2024 - Present",
-    image: "/experience/vine.png",
+    image: "/experience/chim-vine.png",
     company: "Personal Project",
     title: "Full-Stack Developer",
     tasks: [

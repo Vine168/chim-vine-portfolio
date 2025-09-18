@@ -48,7 +48,7 @@ onMounted(() => {
             <img
               src="/about/cv-chimvine.png"
               alt="Profile"
-              class="w-full h-auto rounded-2xl shadow-xl"
+              class="w-full h-auto rounded-2xl shadow-xl blur-xs"
             />
             <!-- Decorative elements - smaller on mobile -->
             <div

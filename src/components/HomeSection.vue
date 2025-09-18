@@ -78,7 +78,7 @@
             class="relative w-48 h-48 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full border-4 border-white/50 overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500"
           >
             <img
-              src="/profile.png"
+              src="/profile-main.png"
               alt="Profile"
               class="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
             />
