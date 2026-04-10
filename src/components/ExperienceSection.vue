@@ -226,34 +226,34 @@ const experiences = [
       },
     ],
   },
-  {
-    date: "19th June 2023 - 09th May 2025",
-    image: "/experience/start-up-community.png",
-    company: "Start Up Community",
-    title: "Maths Teacher",
-    tasks: [
-      "Taught mathematics to high school students",
-      "Shared knowledge of background in mathematics and give advice",
-      "Developed engaging lesson plans and assessments",
-    ],
-    resources: [
-      // {
-      //   link: "https://github.com/your-repo/cadt-capstone",
-      //   icon: "fab fa-github",
-      //   label: "Source Code",
-      // },
-      {
-        link: "/experience/documents/capstone-documentation.pdf",
-        icon: "fas fa-file-pdf",
-        label: "Documentation",
-      },
-      {
-        link: "/experience/documents/capstone-presentation.pdf",
-        icon: "fas fa-presentation",
-        label: "Presentation",
-      },
-    ],
-  },
+  // {
+  //   date: "19th June 2023 - 09th May 2025",
+  //   image: "/experience/start-up-community.png",
+  //   company: "Start Up Community",
+  //   title: "Maths Teacher",
+  //   tasks: [
+  //     "Taught mathematics to high school students",
+  //     "Shared knowledge of background in mathematics and give advice",
+  //     "Developed engaging lesson plans and assessments",
+  //   ],
+  //   resources: [
+  //     // {
+  //     //   link: "https://github.com/your-repo/cadt-capstone",
+  //     //   icon: "fab fa-github",
+  //     //   label: "Source Code",
+  //     // },
+  //     {
+  //       link: "/experience/documents/capstone-documentation.pdf",
+  //       icon: "fas fa-file-pdf",
+  //       label: "Documentation",
+  //     },
+  //     {
+  //       link: "/experience/documents/capstone-presentation.pdf",
+  //       icon: "fas fa-presentation",
+  //       label: "Presentation",
+  //     },
+  //   ],
+  // },
 ];
 </script>
 
