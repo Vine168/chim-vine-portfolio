@@ -22,7 +22,8 @@ npm run dev        # http://localhost:3000
 ## Deployment
 
 `npm run generate` outputs a fully static site in `.output/public` — deploy it to
-Vercel, Netlify, Cloudflare Pages, GitHub Pages or any static host.
+Vercel, Netlify, Cloudflare Pages, GitHub Pages or any static host. On Vercel,
+`vercel.json` already sets the build command to `npm run generate`.
 
 Set the canonical domain before deploying, so canonical URLs, Open Graph tags,
 the sitemap and `robots.txt` point at the right host:

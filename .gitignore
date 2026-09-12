@@ -5,6 +5,9 @@
 dist
 dist-ssr
 
+# Vercel
+.vercel
+
 # Dependencies
 node_modules
 

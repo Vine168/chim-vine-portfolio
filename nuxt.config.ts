@@ -76,7 +76,11 @@ export default defineNuxtConfig({
     families: [{ name: 'Inter', provider: 'google', weights: [400, 500, 600, 700] }],
   },
 
+  // Pinned to IPX. Left on "auto", @nuxt/image switches to Vercel's runtime
+  // optimiser when building on Vercel; its /_vercel/image URLs 404 during
+  // prerendering and fail the build. IPX writes images out as static files.
   image: {
+    provider: 'ipx',
     format: ['webp'],
     quality: 80,
     densities: [1, 2],
