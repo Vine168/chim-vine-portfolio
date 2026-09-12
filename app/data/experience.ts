@@ -34,7 +34,8 @@ export const experiences: Experience[] = [
       'Developed file import/export and administrative forms.',
       'Maintained and debugged APIs using NestJS, Prisma and PostgreSQL.',
     ],
-    icon: 'lucide:landmark',
+    // icon: 'lucide:landmark',
+    logo: '/experience/association-public-digital-service.png',
   },
   {
     id: 'moi-tv',
